@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #f5f6fa;
+}
+
+.wrapper .sidebar {
+    background: #e6e6e6;
+    position: fixed;
+    top: 6;
+    left: 0;
+    width: 35px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.wrapper .sidebar {
+
+    text-align: center;
+}
+
+.wrapper .sidebar img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.wrapper .sidebar ul li a {
+    display: block;
+    padding: 0px 3px;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+}
+
+.wrapper .sidebar ul li a .icon {
+    color: #080809;
+    width: 20px;
+    display: inline-block;
+    margin-top: 60px;
+
+}
+
+header {
+    background-color: #3d3d3d;
+    min-height: 35% !important;
+
+}
+
+.headerImage {
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.headerContent {
+    color: #f0ebeb;
+    padding: 30px;
+    margin-left: 310px;
+}
+
+a {
+    color: #9c9898;
+}
+
+.headerIcon {
+    color: #f0ebeb;
+    margin-left: 330px;
+    margin-top: 115px;
+}
+
+p {
+    font-size: 15px;
+}
+
+footer {
+    background-color: #48779D;
+    min-height: 12% !important;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerImage {
+    position: absolute;
+    bottom: 12%;
+    left: 0.4%;
+}
+
+.footerContent{
+    color: #f0ebeb;
+   margin-left: 100px;
+   margin-top: 30px;
+}
+
+.footerIcon{
+    margin-left: 900px;
+    position: absolute;
+    bottom: 40%;
+    color: #f0ebeb;
+}
+
+.play{
+    margin: 80px;
+}
+
+.table{
+    margin-top: 10px;
+   margin-left: 60px;
+}
+
+td {
+    width:500px;
+    padding:20px;
+    text-size-adjust: 12px;
+}
+
+.tr{
+    background-color: #bab5b5;
+}
+
+.tableSpan {
+    border: 1px solid blue;
+}
