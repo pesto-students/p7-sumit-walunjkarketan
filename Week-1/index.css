@@ -22,22 +22,16 @@ body {
     height: 100%;
     padding: 20px 0;
     transition: all 0.5s ease;
-}
-
-.wrapper .sidebar {
-
     text-align: center;
-}
-
-.wrapper .sidebar img {
     display: block;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin: 0 auto;
 }
 
-.wrapper .sidebar ul li a {
+
+ img {
+    display: block;
+}
+
+ ul li a {
     display: block;
     padding: 0px 3px;
     color: rgb(241, 237, 237);
@@ -45,7 +39,7 @@ body {
     position: relative;
 }
 
-.wrapper .sidebar ul li a .icon {
+ .icon {
     color: #080809;
     width: 20px;
     display: inline-block;
